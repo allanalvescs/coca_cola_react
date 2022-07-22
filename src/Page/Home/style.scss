@@ -1,0 +1,16 @@
+@keyframes renderPage {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+main {
+  height: calc(100vh - 98px);
+
+  animation: renderPage 0.5s linear;
+}

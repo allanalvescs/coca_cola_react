@@ -1,0 +1,51 @@
+{
+  "name": "galleria_sass_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.27.2",
+    "axios-mock-adapter": "^1.21.1",
+    "cypress": "^8.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.33.1",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "5",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.6",
+    "sass": "^1.53.0",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
