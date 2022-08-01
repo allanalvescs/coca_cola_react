@@ -17,7 +17,7 @@ header {
 
 $colorText: #f5f5f5;
 @mixin LinkCustom($color) {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: $color;
   position: relative;
